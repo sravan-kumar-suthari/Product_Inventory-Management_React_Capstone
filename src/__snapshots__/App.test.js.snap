@@ -1,0 +1,1031 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly App should match the snapshot correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <Connect(withRouter(App))>
+        <withRouter(App)
+          dispatch={[Function]}
+          productsList={Array []}
+        >
+          <App
+            dispatch={[Function]}
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "createHref": [Function],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+            location={
+              Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            match={
+              Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              }
+            }
+            productsList={Array []}
+          >
+            <Container
+              fluid={false}
+            >
+              <div
+                className="container"
+              >
+                <NavigationBar
+                  handleClose={[Function]}
+                  handleShow={[Function]}
+                  isLoggedIn={false}
+                  loggedInUser={null}
+                  loginhandler={[Function]}
+                  logouthandler={[Function]}
+                  modalShow={false}
+                >
+                  <div>
+                    <Navbar
+                      collapseOnSelect={false}
+                      expand="lg"
+                      style={
+                        Object {
+                          "backgroundColor": "#03506f",
+                        }
+                      }
+                      variant="dark"
+                    >
+                      <nav
+                        className="navbar navbar-expand-lg navbar-dark"
+                        style={
+                          Object {
+                            "backgroundColor": "#03506f",
+                          }
+                        }
+                      >
+                        <NavbarBrand>
+                          <span
+                            className="navbar-brand"
+                          >
+                            <Link
+                              style={
+                                Object {
+                                  "color": "white",
+                                }
+                              }
+                              to="/"
+                            >
+                              <LinkAnchor
+                                href="/"
+                                navigate={[Function]}
+                                style={
+                                  Object {
+                                    "color": "white",
+                                  }
+                                }
+                              >
+                                <a
+                                  href="/"
+                                  onClick={[Function]}
+                                  style={
+                                    Object {
+                                      "color": "white",
+                                    }
+                                  }
+                                >
+                                  Product Inventory
+                                </a>
+                              </LinkAnchor>
+                            </Link>
+                          </span>
+                        </NavbarBrand>
+                        <NavbarToggle
+                          aria-controls="responsive-navbar-nav"
+                          label="Toggle navigation"
+                        >
+                          <button
+                            aria-controls="responsive-navbar-nav"
+                            aria-label="Toggle navigation"
+                            className="navbar-toggler collapsed"
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            <span
+                              className="navbar-toggler-icon"
+                            />
+                          </button>
+                        </NavbarToggle>
+                        <NavbarCollapse
+                          id="responsive-navbar-nav"
+                        >
+                          <ForwardRef
+                            appear={false}
+                            getDimensionValue={[Function]}
+                            id="responsive-navbar-nav"
+                            in={false}
+                            mountOnEnter={false}
+                            timeout={300}
+                            unmountOnExit={false}
+                          >
+                            <Transition
+                              addEndListener={[Function]}
+                              appear={false}
+                              aria-expanded={null}
+                              enter={true}
+                              exit={true}
+                              id="responsive-navbar-nav"
+                              in={false}
+                              mountOnEnter={false}
+                              onEnter={[Function]}
+                              onEntered={[Function]}
+                              onEntering={[Function]}
+                              onExit={[Function]}
+                              onExited={[Function]}
+                              onExiting={[Function]}
+                              timeout={300}
+                              unmountOnExit={false}
+                            >
+                              <div
+                                aria-expanded={null}
+                                className="navbar-collapse collapse"
+                                id="responsive-navbar-nav"
+                              >
+                                <Nav
+                                  className="mr-auto"
+                                  fill={false}
+                                  justify={false}
+                                >
+                                  <ForwardRef
+                                    as="div"
+                                    className="mr-auto navbar-nav"
+                                    onSelect={[Function]}
+                                  >
+                                    <div
+                                      className="mr-auto navbar-nav"
+                                      onKeyDown={[Function]}
+                                    >
+                                      <NavLink
+                                        activeStyle={
+                                          Object {
+                                            "color": "red",
+                                          }
+                                        }
+                                        style={
+                                          Object {
+                                            "color": "white",
+                                            "fontWeight": "bold",
+                                            "padding": "0px 8px 0px 8px",
+                                          }
+                                        }
+                                        to="/mostViewedProductChart"
+                                      >
+                                        <Link
+                                          aria-current={null}
+                                          style={
+                                            Object {
+                                              "color": "white",
+                                              "fontWeight": "bold",
+                                              "padding": "0px 8px 0px 8px",
+                                            }
+                                          }
+                                          to={
+                                            Object {
+                                              "hash": "",
+                                              "pathname": "/mostViewedProductChart",
+                                              "search": "",
+                                              "state": null,
+                                            }
+                                          }
+                                        >
+                                          <LinkAnchor
+                                            aria-current={null}
+                                            href="/mostViewedProductChart"
+                                            navigate={[Function]}
+                                            style={
+                                              Object {
+                                                "color": "white",
+                                                "fontWeight": "bold",
+                                                "padding": "0px 8px 0px 8px",
+                                              }
+                                            }
+                                          >
+                                            <a
+                                              aria-current={null}
+                                              href="/mostViewedProductChart"
+                                              onClick={[Function]}
+                                              style={
+                                                Object {
+                                                  "color": "white",
+                                                  "fontWeight": "bold",
+                                                  "padding": "0px 8px 0px 8px",
+                                                }
+                                              }
+                                            >
+                                              Most Viewed Products
+                                            </a>
+                                          </LinkAnchor>
+                                        </Link>
+                                      </NavLink>
+                                    </div>
+                                  </ForwardRef>
+                                </Nav>
+                                <Nav
+                                  className="ml-auto"
+                                  fill={false}
+                                  justify={false}
+                                >
+                                  <ForwardRef
+                                    as="div"
+                                    className="ml-auto navbar-nav"
+                                    onSelect={[Function]}
+                                  >
+                                    <div
+                                      className="ml-auto navbar-nav"
+                                      onKeyDown={[Function]}
+                                    >
+                                      <NavLink
+                                        activeStyle={
+                                          Object {
+                                            "color": "red",
+                                          }
+                                        }
+                                        exact={true}
+                                        style={
+                                          Object {
+                                            "color": "white",
+                                            "fontWeight": "bold",
+                                            "padding": "0px 8px 0px 8px",
+                                          }
+                                        }
+                                        to="/"
+                                      >
+                                        <Link
+                                          aria-current="page"
+                                          className="active"
+                                          style={
+                                            Object {
+                                              "color": "red",
+                                              "fontWeight": "bold",
+                                              "padding": "0px 8px 0px 8px",
+                                            }
+                                          }
+                                          to={
+                                            Object {
+                                              "hash": "",
+                                              "pathname": "/",
+                                              "search": "",
+                                              "state": null,
+                                            }
+                                          }
+                                        >
+                                          <LinkAnchor
+                                            aria-current="page"
+                                            className="active"
+                                            href="/"
+                                            navigate={[Function]}
+                                            style={
+                                              Object {
+                                                "color": "red",
+                                                "fontWeight": "bold",
+                                                "padding": "0px 8px 0px 8px",
+                                              }
+                                            }
+                                          >
+                                            <a
+                                              aria-current="page"
+                                              className="active"
+                                              href="/"
+                                              onClick={[Function]}
+                                              style={
+                                                Object {
+                                                  "color": "red",
+                                                  "fontWeight": "bold",
+                                                  "padding": "0px 8px 0px 8px",
+                                                }
+                                              }
+                                            >
+                                              Home
+                                            </a>
+                                          </LinkAnchor>
+                                        </Link>
+                                      </NavLink>
+                                      <NavLink
+                                        activeStyle={
+                                          Object {
+                                            "color": "red",
+                                          }
+                                        }
+                                        style={
+                                          Object {
+                                            "color": "white",
+                                            "fontWeight": "bold",
+                                            "padding": "0px 8px 0px 8px",
+                                          }
+                                        }
+                                        to="/about"
+                                      >
+                                        <Link
+                                          aria-current={null}
+                                          style={
+                                            Object {
+                                              "color": "white",
+                                              "fontWeight": "bold",
+                                              "padding": "0px 8px 0px 8px",
+                                            }
+                                          }
+                                          to={
+                                            Object {
+                                              "hash": "",
+                                              "pathname": "/about",
+                                              "search": "",
+                                              "state": null,
+                                            }
+                                          }
+                                        >
+                                          <LinkAnchor
+                                            aria-current={null}
+                                            href="/about"
+                                            navigate={[Function]}
+                                            style={
+                                              Object {
+                                                "color": "white",
+                                                "fontWeight": "bold",
+                                                "padding": "0px 8px 0px 8px",
+                                              }
+                                            }
+                                          >
+                                            <a
+                                              aria-current={null}
+                                              href="/about"
+                                              onClick={[Function]}
+                                              style={
+                                                Object {
+                                                  "color": "white",
+                                                  "fontWeight": "bold",
+                                                  "padding": "0px 8px 0px 8px",
+                                                }
+                                              }
+                                            >
+                                              About
+                                            </a>
+                                          </LinkAnchor>
+                                        </Link>
+                                      </NavLink>
+                                      <NavLink
+                                        activeStyle={
+                                          Object {
+                                            "color": "red",
+                                          }
+                                        }
+                                        style={
+                                          Object {
+                                            "color": "white",
+                                            "fontWeight": "bold",
+                                            "padding": "0px 8px 0px 8px",
+                                          }
+                                        }
+                                        to="/register"
+                                      >
+                                        <Link
+                                          aria-current={null}
+                                          style={
+                                            Object {
+                                              "color": "white",
+                                              "fontWeight": "bold",
+                                              "padding": "0px 8px 0px 8px",
+                                            }
+                                          }
+                                          to={
+                                            Object {
+                                              "hash": "",
+                                              "pathname": "/register",
+                                              "search": "",
+                                              "state": null,
+                                            }
+                                          }
+                                        >
+                                          <LinkAnchor
+                                            aria-current={null}
+                                            href="/register"
+                                            navigate={[Function]}
+                                            style={
+                                              Object {
+                                                "color": "white",
+                                                "fontWeight": "bold",
+                                                "padding": "0px 8px 0px 8px",
+                                              }
+                                            }
+                                          >
+                                            <a
+                                              aria-current={null}
+                                              href="/register"
+                                              onClick={[Function]}
+                                              style={
+                                                Object {
+                                                  "color": "white",
+                                                  "fontWeight": "bold",
+                                                  "padding": "0px 8px 0px 8px",
+                                                }
+                                              }
+                                            >
+                                              SignUp
+                                            </a>
+                                          </LinkAnchor>
+                                        </Link>
+                                      </NavLink>
+                                      <Button
+                                        active={false}
+                                        disabled={false}
+                                        onClick={[Function]}
+                                        style={
+                                          Object {
+                                            "color": "white",
+                                            "fontWeight": "bold",
+                                            "padding": "0px 8px 0px 8px",
+                                          }
+                                        }
+                                        variant="primary"
+                                      >
+                                        <button
+                                          className="btn btn-primary"
+                                          disabled={false}
+                                          onClick={[Function]}
+                                          style={
+                                            Object {
+                                              "color": "white",
+                                              "fontWeight": "bold",
+                                              "padding": "0px 8px 0px 8px",
+                                            }
+                                          }
+                                          type="button"
+                                        >
+                                          Sign In
+                                        </button>
+                                      </Button>
+                                      <Connect(withRouter(LoginModal))
+                                        loginhandler={[Function]}
+                                        onHide={[Function]}
+                                        show={false}
+                                      >
+                                        <withRouter(LoginModal)
+                                          dispatch={[Function]}
+                                          loginhandler={[Function]}
+                                          onHide={[Function]}
+                                          show={false}
+                                          users={Array []}
+                                        >
+                                          <LoginModal
+                                            dispatch={[Function]}
+                                            history={
+                                              Object {
+                                                "action": "POP",
+                                                "block": [Function],
+                                                "createHref": [Function],
+                                                "go": [Function],
+                                                "goBack": [Function],
+                                                "goForward": [Function],
+                                                "length": 1,
+                                                "listen": [Function],
+                                                "location": Object {
+                                                  "hash": "",
+                                                  "pathname": "/",
+                                                  "search": "",
+                                                  "state": undefined,
+                                                },
+                                                "push": [Function],
+                                                "replace": [Function],
+                                              }
+                                            }
+                                            location={
+                                              Object {
+                                                "hash": "",
+                                                "pathname": "/",
+                                                "search": "",
+                                                "state": undefined,
+                                              }
+                                            }
+                                            loginhandler={[Function]}
+                                            match={
+                                              Object {
+                                                "isExact": true,
+                                                "params": Object {},
+                                                "path": "/",
+                                                "url": "/",
+                                              }
+                                            }
+                                            onHide={[Function]}
+                                            show={false}
+                                            users={Array []}
+                                          >
+                                            <Modal
+                                              animation={true}
+                                              aria-labelledby="contained-modal-title-vcenter"
+                                              autoFocus={true}
+                                              backdrop={true}
+                                              centered={true}
+                                              dialogAs={
+                                                Object {
+                                                  "$$typeof": Symbol(react.forward_ref),
+                                                  "render": [Function],
+                                                }
+                                              }
+                                              enforceFocus={true}
+                                              keyboard={true}
+                                              onHide={[Function]}
+                                              restoreFocus={true}
+                                              show={false}
+                                              size="lg"
+                                            >
+                                              <Modal
+                                                autoFocus={true}
+                                                backdrop={true}
+                                                backdropTransition={[Function]}
+                                                containerClassName="modal-open"
+                                                enforceFocus={true}
+                                                keyboard={true}
+                                                manager={
+                                                  BootstrapModalManager {
+                                                    "containers": Array [],
+                                                    "data": Array [],
+                                                    "handleContainerOverflow": true,
+                                                    "hideSiblingNodes": true,
+                                                    "modals": Array [],
+                                                    "scrollbarSize": 0,
+                                                  }
+                                                }
+                                                onEnter={[Function]}
+                                                onEntering={[Function]}
+                                                onEscapeKeyDown={[Function]}
+                                                onExit={[Function]}
+                                                onExited={[Function]}
+                                                onHide={[Function]}
+                                                renderBackdrop={[Function]}
+                                                renderDialog={[Function]}
+                                                restoreFocus={true}
+                                                show={false}
+                                                transition={[Function]}
+                                              />
+                                            </Modal>
+                                          </LoginModal>
+                                        </withRouter(LoginModal)>
+                                      </Connect(withRouter(LoginModal))>
+                                    </div>
+                                  </ForwardRef>
+                                </Nav>
+                              </div>
+                            </Transition>
+                          </ForwardRef>
+                        </NavbarCollapse>
+                      </nav>
+                    </Navbar>
+                  </div>
+                </NavigationBar>
+                <Switch>
+                  <Route
+                    component={
+                      Object {
+                        "$$typeof": Symbol(react.memo),
+                        "WrappedComponent": [Function],
+                        "compare": null,
+                        "type": [Function],
+                      }
+                    }
+                    computedMatch={
+                      Object {
+                        "isExact": true,
+                        "params": Object {},
+                        "path": "/",
+                        "url": "/",
+                      }
+                    }
+                    exact={true}
+                    location={
+                      Object {
+                        "hash": "",
+                        "pathname": "/",
+                        "search": "",
+                        "state": undefined,
+                      }
+                    }
+                    path="/"
+                  >
+                    <Connect(AllProductsPage)
+                      history={
+                        Object {
+                          "action": "POP",
+                          "block": [Function],
+                          "createHref": [Function],
+                          "go": [Function],
+                          "goBack": [Function],
+                          "goForward": [Function],
+                          "length": 1,
+                          "listen": [Function],
+                          "location": Object {
+                            "hash": "",
+                            "pathname": "/",
+                            "search": "",
+                            "state": undefined,
+                          },
+                          "push": [Function],
+                          "replace": [Function],
+                        }
+                      }
+                      location={
+                        Object {
+                          "hash": "",
+                          "pathname": "/",
+                          "search": "",
+                          "state": undefined,
+                        }
+                      }
+                      match={
+                        Object {
+                          "isExact": true,
+                          "params": Object {},
+                          "path": "/",
+                          "url": "/",
+                        }
+                      }
+                    >
+                      <AllProductsPage
+                        getProducts={[Function]}
+                        history={
+                          Object {
+                            "action": "POP",
+                            "block": [Function],
+                            "createHref": [Function],
+                            "go": [Function],
+                            "goBack": [Function],
+                            "goForward": [Function],
+                            "length": 1,
+                            "listen": [Function],
+                            "location": Object {
+                              "hash": "",
+                              "pathname": "/",
+                              "search": "",
+                              "state": undefined,
+                            },
+                            "push": [Function],
+                            "replace": [Function],
+                          }
+                        }
+                        location={
+                          Object {
+                            "hash": "",
+                            "pathname": "/",
+                            "search": "",
+                            "state": undefined,
+                          }
+                        }
+                        match={
+                          Object {
+                            "isExact": true,
+                            "params": Object {},
+                            "path": "/",
+                            "url": "/",
+                          }
+                        }
+                        productsList={Array []}
+                      >
+                        <div>
+                          <Connect(withRouter(ProductsList))
+                            context={
+                              Object {
+                                "handleShow": [Function],
+                                "isLoggedIn": false,
+                              }
+                            }
+                            productList={Array []}
+                          >
+                            <withRouter(ProductsList)
+                              context={
+                                Object {
+                                  "handleShow": [Function],
+                                  "isLoggedIn": false,
+                                }
+                              }
+                              deleteProduct={[Function]}
+                              productList={Array []}
+                            >
+                              <ProductsList
+                                context={
+                                  Object {
+                                    "handleShow": [Function],
+                                    "isLoggedIn": false,
+                                  }
+                                }
+                                deleteProduct={[Function]}
+                                history={
+                                  Object {
+                                    "action": "POP",
+                                    "block": [Function],
+                                    "createHref": [Function],
+                                    "go": [Function],
+                                    "goBack": [Function],
+                                    "goForward": [Function],
+                                    "length": 1,
+                                    "listen": [Function],
+                                    "location": Object {
+                                      "hash": "",
+                                      "pathname": "/",
+                                      "search": "",
+                                      "state": undefined,
+                                    },
+                                    "push": [Function],
+                                    "replace": [Function],
+                                  }
+                                }
+                                location={
+                                  Object {
+                                    "hash": "",
+                                    "pathname": "/",
+                                    "search": "",
+                                    "state": undefined,
+                                  }
+                                }
+                                match={
+                                  Object {
+                                    "isExact": true,
+                                    "params": Object {},
+                                    "path": "/",
+                                    "url": "/",
+                                  }
+                                }
+                                productList={Array []}
+                              >
+                                <div
+                                  style={
+                                    Object {
+                                      "padding": "10px 0",
+                                    }
+                                  }
+                                >
+                                  <Card
+                                    body={false}
+                                    style={
+                                      Object {
+                                        "backgroundColor": "#bbbbbb",
+                                      }
+                                    }
+                                  >
+                                    <div
+                                      className="card"
+                                      style={
+                                        Object {
+                                          "backgroundColor": "#bbbbbb",
+                                        }
+                                      }
+                                    >
+                                      <div
+                                        className="row"
+                                      >
+                                        <div
+                                          className="col-6 col-lg-2"
+                                        >
+                                          <CardBody>
+                                            <div
+                                              className="card-body"
+                                            >
+                                              <Link
+                                                to="/addproduct"
+                                              >
+                                                <LinkAnchor
+                                                  href="/addproduct"
+                                                  navigate={[Function]}
+                                                >
+                                                  <a
+                                                    href="/addproduct"
+                                                    onClick={[Function]}
+                                                  >
+                                                      
+                                                    <Button
+                                                      active={false}
+                                                      disabled={false}
+                                                      onClick={[Function]}
+                                                      variant="success"
+                                                    >
+                                                      <button
+                                                        className="btn btn-success"
+                                                        disabled={false}
+                                                        onClick={[Function]}
+                                                        type="button"
+                                                      >
+                                                        <Badge
+                                                          pill={true}
+                                                          variant="success"
+                                                        >
+                                                          <span
+                                                            className="badge badge-pill badge-success"
+                                                          >
+                                                            Add Product
+                                                          </span>
+                                                        </Badge>
+                                                      </button>
+                                                    </Button>
+                                                  </a>
+                                                </LinkAnchor>
+                                              </Link>
+                                            </div>
+                                          </CardBody>
+                                        </div>
+                                        <div
+                                          className="col-6 col-lg-2"
+                                        >
+                                          <CardBody>
+                                            <div
+                                              className="card-body"
+                                            >
+                                              <Button
+                                                active={false}
+                                                disabled={true}
+                                                onClick={[Function]}
+                                                variant="danger"
+                                              >
+                                                <button
+                                                  className="btn btn-danger"
+                                                  disabled={true}
+                                                  onClick={[Function]}
+                                                  type="button"
+                                                >
+                                                  <Badge
+                                                    pill={true}
+                                                    variant="danger"
+                                                  >
+                                                    <span
+                                                      className="badge badge-pill badge-danger"
+                                                    >
+                                                      Delete
+                                                    </span>
+                                                  </Badge>
+                                                </button>
+                                              </Button>
+                                            </div>
+                                          </CardBody>
+                                        </div>
+                                        <div
+                                          className="col-12 col-lg-3"
+                                        >
+                                          <CardBody>
+                                            <div
+                                              className="card-body"
+                                            >
+                                              <Dropdown
+                                                navbar={false}
+                                              >
+                                                <ReactOverlaysDropdown
+                                                  itemSelector=".dropdown-item:not(.disabled):not(:disabled)"
+                                                  onToggle={[Function]}
+                                                >
+                                                  <div
+                                                    className="dropdown"
+                                                    onKeyDown={[Function]}
+                                                  >
+                                                    <DropdownToggle
+                                                      id="dropdown-basic"
+                                                      variant="primary"
+                                                    >
+                                                      <Button
+                                                        active={false}
+                                                        aria-expanded={false}
+                                                        aria-haspopup={true}
+                                                        className="dropdown-toggle"
+                                                        disabled={false}
+                                                        id="dropdown-basic"
+                                                        onClick={[Function]}
+                                                        variant="primary"
+                                                      >
+                                                        <button
+                                                          aria-expanded={false}
+                                                          aria-haspopup={true}
+                                                          className="dropdown-toggle btn btn-primary"
+                                                          disabled={false}
+                                                          id="dropdown-basic"
+                                                          onClick={[Function]}
+                                                          type="button"
+                                                        >
+                                                          Select Columns To be Visible
+                                                        </button>
+                                                      </Button>
+                                                    </DropdownToggle>
+                                                    <Container
+                                                      fluid={false}
+                                                    >
+                                                      <div
+                                                        className="container"
+                                                      >
+                                                        <DropdownMenu
+                                                          align="left"
+                                                          alignRight={false}
+                                                          flip={true}
+                                                        />
+                                                      </div>
+                                                    </Container>
+                                                  </div>
+                                                </ReactOverlaysDropdown>
+                                              </Dropdown>
+                                            </div>
+                                          </CardBody>
+                                        </div>
+                                        <div
+                                          className="col-12 col-lg-5"
+                                        >
+                                          <CardBody>
+                                            <div
+                                              className="card-body"
+                                            >
+                                              <FormGroup>
+                                                <div
+                                                  className="form-group"
+                                                >
+                                                  <FormControl
+                                                    onChange={[Function]}
+                                                    placeholder="Search Product"
+                                                    size="sm"
+                                                    type="text"
+                                                    value=""
+                                                  >
+                                                    <input
+                                                      className="form-control form-control-sm"
+                                                      onChange={[Function]}
+                                                      placeholder="Search Product"
+                                                      type="text"
+                                                      value=""
+                                                    />
+                                                  </FormControl>
+                                                </div>
+                                              </FormGroup>
+                                            </div>
+                                          </CardBody>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </Card>
+                                </div>
+                              </ProductsList>
+                            </withRouter(ProductsList)>
+                          </Connect(withRouter(ProductsList))>
+                        </div>
+                      </AllProductsPage>
+                    </Connect(AllProductsPage)>
+                  </Route>
+                </Switch>
+              </div>
+            </Container>
+          </App>
+        </withRouter(App)>
+      </Connect(withRouter(App))>
+    </Router>
+  </BrowserRouter>
+</Provider>
+`;

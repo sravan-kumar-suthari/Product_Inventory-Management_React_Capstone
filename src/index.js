@@ -3,11 +3,26 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { Provider } from "react-redux";
+import store from "./components/redux/store/configureStore";
+//import {getListOfProducts} from "./components/redux/actions/productActions";
+import {loadUsers} from "./components/redux/actions/userActions";
+import { BrowserRouter } from 'react-router-dom';
+
+
+//store.dispatch(getListOfProducts());
+
+store.dispatch(loadUsers());
 
 ReactDOM.render(
-  <React.StrictMode>
+<Provider store={store}>
+  <BrowserRouter>
     <App />
-  </React.StrictMode>,
+   </BrowserRouter>
+    </Provider>
+  ,
   document.getElementById('root')
 );
 

@@ -1,0 +1,69 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "MOTO G5",
+      "description": "This is a motorola 5th Generation Mobile",
+      "price": 26000,
+      "quantity": 2,
+      "manufacturer": "China",
+      "views": 14
+    },
+    {
+      "id": 3,
+      "productName": "Dell Inspiron",
+      "quantity": 4,
+      "price": "50000",
+      "description": "This is a 7th Generation dell Laptop",
+      "manufacturer": "Malaysia",
+      "views": 7
+    },
+    {
+      "id": 4,
+      "productName": "Epson Printer ",
+      "description": "This is a eco friendly Printer ",
+      "price": 18000,
+      "quantity": 2,
+      "manufacturer": "Malaysia",
+      "views": 3
+    }
+  ],
+  "users": [
+    {
+      "email": "sravan24021997@gmail.com",
+      "password": "123456789",
+      "firstName": "sravan",
+      "lastName": "kumar",
+      "location": "Hyderabad",
+      "mobile": "9515912862",
+      "id": 1
+    },
+    {
+      "email": "the.sk143341@gmail.com",
+      "password": "12345678",
+      "firstName": "sravan",
+      "lastName": "kumar",
+      "location": "hyderabad",
+      "mobile": "9515912862",
+      "id": 2
+    },
+    {
+      "email": "ra20057662@gmail.com",
+      "password": "5555555555",
+      "firstName": "pavan",
+      "lastName": "ravula",
+      "location": "Kakinada",
+      "mobile": "738541235",
+      "id": 3
+    },
+    {
+      "email": "suthari.kumar@wipro.com",
+      "password": "123456789",
+      "firstName": "Sravan",
+      "lastName": "Suthari",
+      "location": "Hyderabad",
+      "mobile": "9700025102",
+      "id": 4
+    }
+  ]
+}

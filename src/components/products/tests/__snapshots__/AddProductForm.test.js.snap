@@ -1,0 +1,515 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddProductForm snapshot AddProductForm snapshot renders correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <Connect(withRouter(AddProductForm))>
+        <withRouter(AddProductForm)
+          addProduct={[Function]}
+        >
+          <AddProductForm
+            addProduct={[Function]}
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "createHref": [Function],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+            location={
+              Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            match={
+              Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              }
+            }
+          >
+            <Formik
+              initialValues={
+                Object {
+                  "description": "",
+                  "manufacturer": "",
+                  "price": "",
+                  "productName": "",
+                  "quantity": "",
+                }
+              }
+              onSubmit={[Function]}
+              validateOnBlur={false}
+              validateOnChange={false}
+              validationSchema={
+                ObjectSchema {
+                  "_blacklist": ReferenceSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "_excludedEdges": Array [],
+                  "_mutate": undefined,
+                  "_nodes": Array [
+                    "description",
+                    "manufacturer",
+                    "price",
+                    "quantity",
+                    "productName",
+                  ],
+                  "_sortErrors": [Function],
+                  "_typeError": [Function],
+                  "_whitelist": ReferenceSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "conditions": Array [],
+                  "deps": Array [],
+                  "exclusiveTests": Object {},
+                  "fields": Object {
+                    "description": StringSchema {
+                      "_blacklist": ReferenceSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "_blacklistError": undefined,
+                      "_mutate": undefined,
+                      "_typeError": [Function],
+                      "_whitelist": ReferenceSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "_whitelistError": undefined,
+                      "conditions": Array [],
+                      "deps": Array [],
+                      "exclusiveTests": Object {
+                        "required": true,
+                      },
+                      "spec": Object {
+                        "abortEarly": true,
+                        "label": undefined,
+                        "meta": undefined,
+                        "nullable": false,
+                        "presence": "required",
+                        "recursive": true,
+                        "strict": false,
+                        "strip": false,
+                      },
+                      "tests": Array [
+                        [Function],
+                      ],
+                      "transforms": Array [
+                        [Function],
+                      ],
+                      "type": "string",
+                    },
+                    "manufacturer": StringSchema {
+                      "_blacklist": ReferenceSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "_blacklistError": undefined,
+                      "_mutate": undefined,
+                      "_typeError": [Function],
+                      "_whitelist": ReferenceSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "_whitelistError": undefined,
+                      "conditions": Array [],
+                      "deps": Array [],
+                      "exclusiveTests": Object {
+                        "required": true,
+                      },
+                      "spec": Object {
+                        "abortEarly": true,
+                        "label": undefined,
+                        "meta": undefined,
+                        "nullable": false,
+                        "presence": "required",
+                        "recursive": true,
+                        "strict": false,
+                        "strip": false,
+                      },
+                      "tests": Array [
+                        [Function],
+                      ],
+                      "transforms": Array [
+                        [Function],
+                      ],
+                      "type": "string",
+                    },
+                    "price": NumberSchema {
+                      "_blacklist": ReferenceSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "_blacklistError": undefined,
+                      "_mutate": undefined,
+                      "_typeError": [Function],
+                      "_whitelist": ReferenceSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "_whitelistError": undefined,
+                      "conditions": Array [],
+                      "deps": Array [],
+                      "exclusiveTests": Object {
+                        "required": true,
+                      },
+                      "spec": Object {
+                        "abortEarly": true,
+                        "label": undefined,
+                        "meta": undefined,
+                        "nullable": false,
+                        "presence": "required",
+                        "recursive": true,
+                        "strict": false,
+                        "strip": false,
+                      },
+                      "tests": Array [
+                        [Function],
+                      ],
+                      "transforms": Array [
+                        [Function],
+                      ],
+                      "type": "number",
+                    },
+                    "productName": StringSchema {
+                      "_blacklist": ReferenceSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "_blacklistError": undefined,
+                      "_mutate": undefined,
+                      "_typeError": [Function],
+                      "_whitelist": ReferenceSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "_whitelistError": undefined,
+                      "conditions": Array [],
+                      "deps": Array [],
+                      "exclusiveTests": Object {
+                        "required": true,
+                      },
+                      "spec": Object {
+                        "abortEarly": true,
+                        "label": undefined,
+                        "meta": undefined,
+                        "nullable": false,
+                        "presence": "required",
+                        "recursive": true,
+                        "strict": false,
+                        "strip": false,
+                      },
+                      "tests": Array [
+                        [Function],
+                      ],
+                      "transforms": Array [
+                        [Function],
+                      ],
+                      "type": "string",
+                    },
+                    "quantity": NumberSchema {
+                      "_blacklist": ReferenceSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "_blacklistError": undefined,
+                      "_mutate": undefined,
+                      "_typeError": [Function],
+                      "_whitelist": ReferenceSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "_whitelistError": undefined,
+                      "conditions": Array [],
+                      "deps": Array [],
+                      "exclusiveTests": Object {
+                        "required": true,
+                      },
+                      "spec": Object {
+                        "abortEarly": true,
+                        "label": undefined,
+                        "meta": undefined,
+                        "nullable": false,
+                        "presence": "required",
+                        "recursive": true,
+                        "strict": false,
+                        "strip": false,
+                      },
+                      "tests": Array [
+                        [Function],
+                      ],
+                      "transforms": Array [
+                        [Function],
+                      ],
+                      "type": "number",
+                    },
+                  },
+                  "spec": Object {
+                    "abortEarly": true,
+                    "label": undefined,
+                    "meta": undefined,
+                    "nullable": false,
+                    "presence": "optional",
+                    "recursive": true,
+                    "strict": false,
+                    "strip": false,
+                  },
+                  "tests": Array [],
+                  "transforms": Array [
+                    [Function],
+                  ],
+                  "type": "object",
+                }
+              }
+            >
+              <form
+                onSubmit={[Function]}
+                style={
+                  Object {
+                    "margin": "0 auto",
+                    "width": "30%",
+                  }
+                }
+              >
+                <Prompt
+                  message="You have unsaved changes, are you sure you want to leave?"
+                  when={false}
+                />
+                <h4
+                  style={
+                    Object {
+                      "display": "flex",
+                      "fontWeight": "bold",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  Add Product
+                </h4>
+                <div
+                  className="form-group"
+                >
+                  <label
+                    htmlFor="name"
+                  >
+                    Name 
+                  </label>
+                  <input
+                    className="form-control"
+                    id="productName"
+                    name="productName"
+                    onChange={[Function]}
+                    placeholder="Enter Product Name"
+                    type="text"
+                    value=""
+                  />
+                  <span
+                    style={
+                      Object {
+                        "color": "red",
+                        "fontWeight": "bold",
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="form-group"
+                >
+                  <label
+                    htmlFor="quantity"
+                  >
+                    Quantity 
+                  </label>
+                  <input
+                    className="form-control"
+                    id="quantity"
+                    name="quantity"
+                    onChange={[Function]}
+                    placeholder="Enter Quantity"
+                    type="number"
+                    value=""
+                  />
+                  <span
+                    style={
+                      Object {
+                        "color": "red",
+                        "fontWeight": "bold",
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="form-group"
+                >
+                  <label
+                    htmlFor="price"
+                  >
+                    Price  
+                  </label>
+                  <input
+                    className="form-control"
+                    id="price"
+                    name="price"
+                    onChange={[Function]}
+                    placeholder="Enter Price"
+                    step="1"
+                    type="number"
+                    value=""
+                  />
+                  <span
+                    style={
+                      Object {
+                        "color": "red",
+                        "fontWeight": "bold",
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="form-group"
+                >
+                  <label
+                    htmlFor="description"
+                  >
+                    Description 
+                  </label>
+                  <input
+                    className="form-control"
+                    id="description"
+                    name="description"
+                    onChange={[Function]}
+                    placeholder="Enter description"
+                    type="text"
+                    value=""
+                  />
+                  <span
+                    style={
+                      Object {
+                        "color": "red",
+                        "fontWeight": "bold",
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="form-group"
+                >
+                  <label
+                    htmlFor="manufacturer"
+                  >
+                    Manufacturer 
+                  </label>
+                  <input
+                    className="form-control"
+                    id="manufacturer"
+                    name="manufacturer"
+                    onChange={[Function]}
+                    placeholder="Enter manufacturer"
+                    type="text"
+                    value=""
+                  />
+                  <span
+                    style={
+                      Object {
+                        "color": "red",
+                        "fontWeight": "bold",
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  style={
+                    Object {
+                      "display": "flex",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Button
+                    active={false}
+                    disabled={false}
+                    style={
+                      Object {
+                        "fontWeight": "bold",
+                      }
+                    }
+                    type="submit"
+                    variant="primary"
+                  >
+                    <button
+                      className="btn btn-primary"
+                      disabled={false}
+                      style={
+                        Object {
+                          "fontWeight": "bold",
+                        }
+                      }
+                      type="submit"
+                    >
+                      Submit
+                    </button>
+                  </Button>
+                </div>
+              </form>
+            </Formik>
+          </AddProductForm>
+        </withRouter(AddProductForm)>
+      </Connect(withRouter(AddProductForm))>
+    </Router>
+  </BrowserRouter>
+   
+</Provider>
+`;
